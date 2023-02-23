@@ -1,0 +1,1 @@
+toString method of the shape class is not a good choice of ordering because there are multiple positions in each shape, so as it constructs a new array for shapes, in order to reorder it, each independent area must be compared and then swapped throughout the list. Whereas, if one compared the areas as they were created, then new array allocation would not be needed.
